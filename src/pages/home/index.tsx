@@ -6,7 +6,7 @@ import Head from 'next/head'
 import { Avatar } from '@react-md/avatar'
 import scssVariables from '@react-md/avatar/dist/scssVariables'
 import { List, ListItem } from '@react-md/list'
-
+import { Link } from '@react-md/link'
 // import { Divider } from '@react-md/divider'
 import { Grid } from '@react-md/utils'
 
@@ -50,6 +50,12 @@ const transformedPeople = people.map((name, i) => ({
 }))
 
 const Home: NextPage = () => {
+  const userClickHandle = (e: any) => {
+    console.log(e)
+    //
+    //window.
+  }
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -63,14 +69,17 @@ const Home: NextPage = () => {
 
         <List className={color_styles.list}>
           {transformedPeople.map(({ id, name, avatar, color }, i) => (
-            <ListItem
-              id={`person-${i}`}
-              key={id}
-              leftAddon={<Avatar color={color}>{avatar}</Avatar>}
-              leftAddonType="avatar"
-            >
-              {name}
-            </ListItem>
+            <Link href="/admin" key={`person-${i}`}>
+              <ListItem
+                id={`person-${i}`}
+                key={id}
+                leftAddon={<Avatar color={color}>{avatar}</Avatar>}
+                leftAddonType="avatar"
+                onClick={userClickHandle}
+              >
+                {name}
+              </ListItem>
+            </Link>
           ))}
         </List>
 
