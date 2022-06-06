@@ -1,0 +1,10 @@
+@use 'react-md' as *;
+
+.list {
+  @include rmd-elevation(4);
+  @include rmd-utils-scroll;
+
+  margin: 2rem auto;
+  max-height: 15rem;
+  max-width: 45rem;
+}

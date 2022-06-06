@@ -114,3 +114,11 @@
     flex-direction: column;
   }
 }
+
+.text_center {
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}

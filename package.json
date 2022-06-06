@@ -9,16 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-md/avatar": "^5.1.3",
+    "@react-md/icon": "^5.1.3",
+    "@react-md/layout": "^5.1.3",
+    "@react-md/list": "^5.1.3",
+    "@react-md/states": "^5.1.3",
+    "@react-md/theme": "^5.1.3",
+    "@react-md/typography": "^5.1.3",
+    "@react-md/utils": "^5.1.3",
+    "@reduxjs/toolkit": "^1.8.2",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-md": "^5.1.3",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@types/jest": "^28.1.0",
     "@types/node": "17.0.38",
     "@types/react": "18.0.10",
     "@types/react-dom": "18.0.5",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.25",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "sass": "^1.52.1",
     "typescript": "4.7.2"
   }
 }

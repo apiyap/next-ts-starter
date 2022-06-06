@@ -1,0 +1,37 @@
+{
+  "short_name": "Matrix Delivery Robot",
+  "name": "Interface Systech Co.,LTD.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "splashscreen_image.png",
+      "type": "image/png",
+      "sizes": "953x557"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Matrix Delivery Robot",
+      "description": "Matrix Delivery Robot",
+      "url": "/",
+      "icons": [{ "src": "splashscreen_image.png", "sizes": "953x557" }]
+    },
+    {
+      "name": "Login",
+      "short_name": "User login",
+      "description": "User login",
+      "url": "/userlogin",
+      "icons": [{ "src": "splashscreen_image.png", "sizes": "953x557" }]
+    }
+  ]
+}
