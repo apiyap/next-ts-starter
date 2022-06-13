@@ -23,7 +23,8 @@ const Login: NextPage = () => {
         <Image src={logo} className={styles.logo} alt="Logo" />
 
         <div className='login'>
-
+        <LinkStyledButton href="/home">Home</LinkStyledButton>
+        <LinkStyledButton href="/home">Home</LinkStyledButton>
         </div>
         <Grid columns={2}>
           <LinkStyledButton href="/home">Home</LinkStyledButton>
