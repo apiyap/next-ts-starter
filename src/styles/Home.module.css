@@ -122,3 +122,28 @@
   vertical-align: middle;
   text-align: center;
 }
+
+
+
+.formlogin {
+
+  margin: 10% auto;
+
+}
+
+.Divider {
+
+  margin: 5% auto;
+
+}
+.btnlogin {
+
+  margin: auto 35% 15%;
+
+}
+
+.btnregister {
+
+  margin: auto 39% 15%;
+
+}
