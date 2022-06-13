@@ -8,6 +8,7 @@ import CompanyCopyright from '../../components/CompanyCopyright'
 import { Grid,  } from '@react-md/utils'
 
 import styles from '../../styles/Home.module.css'
+// import logo from '../../images/logo/matrix-robot-logo-ex.svg'
 import logo from '../../images/logo/matrix-robot-logo-ex.svg'
 
 
